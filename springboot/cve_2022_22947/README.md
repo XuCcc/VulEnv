@@ -1,6 +1,11 @@
 # CVE-2022-22947
 
-> 分析详见: [CVE-2022-22947 分析-云社区-华为云](https://bbs.huaweicloud.com/blogs/335870)
+> Blog 首发于 [CVE-2022-22947 分析-云社区-华为云](https://bbs.huaweicloud.com/blogs/335870)
+
+## Build
+
+1. `mvn install`
+2. `run person.xu.vulEnv.Cve202222947Application`
 
 ## POC
 
