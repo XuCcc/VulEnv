@@ -1,0 +1,3 @@
+[submodule "laravel/cve_2021_3129/laravel_8.4.2"]
+	path = laravel/cve_2021_3129/laravel_8.4.2
+	url = https://github.com/laravel/laravel.git
