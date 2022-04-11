@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringCoreRceApplication {
     @GetMapping("/")
     public String name(User user) {
-        return user.getName();
+        return String.format("%s is %d", user.getName(), user.getInfo().getAge());
     }
 
 
