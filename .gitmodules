@@ -1,3 +1,6 @@
 [submodule "laravel/cve_2021_3129/laravel_8.4.2"]
 	path = laravel/cve_2021_3129/laravel_8.4.2
 	url = https://github.com/laravel/laravel.git
+[submodule "springboot/cve_2023_20860/env"]
+	path = springboot/cve_2023_20860/env
+	url = https://github.com/limo520/CVE-2023-20860.git
